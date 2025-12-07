@@ -1,4 +1,16 @@
+# Ignore Android native & Gradle files
+android/** linguist-vendored
 *.gradle linguist-vendored
+
+# Ignore iOS native files
+ios/** linguist-vendored
+
+# Ignore build folder
+build/** linguist-vendored
+
+# Ignore IDE files
 *.iml linguist-vendored
 .idea/** linguist-vendored
+
+# Ignore lock & metadata files
 pubspec.lock linguist-vendored
