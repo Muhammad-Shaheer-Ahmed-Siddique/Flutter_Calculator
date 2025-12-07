@@ -1,16 +1,27 @@
-# Ignore Android native & Gradle files
+# ------------------------------
+# Flutter: Ignore native & build files
+# ------------------------------
+
+# Android native files
 android/** linguist-vendored
 *.gradle linguist-vendored
+gradle/** linguist-vendored
+local.properties linguist-vendored
 
-# Ignore iOS native files
+# iOS native files
 ios/** linguist-vendored
+Podfile linguist-vendored
+Podfile.lock linguist-vendored
+Pods/** linguist-vendored
+Runner.xcworkspace/** linguist-vendored
 
-# Ignore build folder
+# Build output
 build/** linguist-vendored
 
-# Ignore IDE files
+# IDE / editor files
 *.iml linguist-vendored
 .idea/** linguist-vendored
+.vscode/** linguist-vendored
 
-# Ignore lock & metadata files
+# Miscellaneous
 pubspec.lock linguist-vendored
