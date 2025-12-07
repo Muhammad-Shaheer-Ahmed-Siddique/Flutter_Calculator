@@ -1,3 +1,4 @@
-android/** linguist-vendored
-ios/** linguist-vendored
-build/** linguist-vendored
+*.gradle linguist-vendored
+*.iml linguist-vendored
+.idea/** linguist-vendored
+pubspec.lock linguist-vendored
